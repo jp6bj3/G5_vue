@@ -13,6 +13,7 @@ import HelloWorld from './components/HelloWorld.vue'
       <RouterLink to="/CourseView">課程資訊</RouterLink>
       <RouterLink to="/BentoView">美味食堂</RouterLink>
       <RouterLink to="/CoachView">教練資訊</RouterLink>
+      <RouterLink to="/LoginView">會員登入</RouterLink>
     </nav>
   </header>
 
