@@ -2,43 +2,25 @@
 @use "sass:math";
 
 // base 變數
-@import "base/var";
-@import "base/color";
-@import "base/font";
-@import "base/setting";
+@import "./base/_var";
+
+// base
+@import "./base/_reset";
+@import "./base/_font";
+@import "./base/_setting";
+// @import "./base/grid";
 
 // mixin function
-@import "mixin/mixin";
+@import "./mixin/_mixin";
 
 // component 組件
-@import "component/btn";
-@import "component/card";
-@import "component/form";
-@import "component/table";
+@import "./component/_btn";
+@import "./component/_card";
+@import "./component/_form";
+@import "./component/_table";
 
 // layout
-@import "layout/header";
-@import "layout/footer";
-@import "layout/login";
-@import "layout/body";
-@import "layout/nav";
+@import "./layout/_header";
+@import "./layout/_footer";
 
 //page 頁面
-@import "page/index";
-@import "page/about";
-@import "page/account";
-@import "page/cart";
-@import "page/course";
-@import "page/game";
-@import "page/new";
-@import "page/wine";
-
-// 套件
-//grid
-@import "plugin/grid";
-
-//呼叫顏色fuuction
-@include color($color);
-
-//呼叫標題大小function
-@include font($font_size);

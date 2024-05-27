@@ -8,7 +8,6 @@ body {
   font-family: $font_family;
 }
 
-
 h1 {
   @include font(map-get($font_size, h1));
 }

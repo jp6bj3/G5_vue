@@ -39,19 +39,19 @@
 
 @include createGrid(12);
 
-@media screen and (min-width: $sm) {
+@media screen and (min-width:$sm) {
     @include createGrid('-sm');
     @include createGrid-row('-sm');
 }
-@media screen and (min-width: $md) {
+@media screen and (min-width:$md) {
     @include createGrid('-md');
     @include createGrid-row('-md');
 }
-@media screen and (min-width: $lg) {
+@media screen and (min-width:$lg) {
     @include createGrid('-lg');
     @include createGrid-row('-lg');
 }
-@media screen and (min-width: $xl) {
+@media screen and (min-width:$xl) {
     @include createGrid('-xl');
     @include createGrid-row('-xl');
 }
