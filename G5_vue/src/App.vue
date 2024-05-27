@@ -6,6 +6,7 @@ import HelloWorld from './components/HelloWorld.vue'
 <template>
   <header>
     <nav>
+      <RouterLink to="/">首頁</RouterLink>
       <RouterLink to="/AboutusView">關於我們</RouterLink>
       <RouterLink to="/NewsView">最新活動</RouterLink>
     </nav>
