@@ -6,9 +6,9 @@ import HelloWorld from './components/HelloWorld.vue'
 <template>
   <header>
     <nav>
-        <RouterLink to="/">Home</RouterLink>
-        <RouterLink to="/about">About</RouterLink>
-      </nav>
+      <RouterLink to="/AboutusView">關於我們</RouterLink>
+      <RouterLink to="/NewsView">最新活動</RouterLink>
+    </nav>
   </header>
 
   <RouterView />
