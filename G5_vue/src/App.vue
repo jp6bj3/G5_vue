@@ -10,6 +10,7 @@ import HelloWorld from './components/HelloWorld.vue'
       <RouterLink to="/AboutusView">關於我們</RouterLink>
       <RouterLink to="/NewsView">最新活動</RouterLink>
       <RouterLink to="/DiaryView">健身日記</RouterLink>
+      <RouterLink to="/CourseView">課程資訊</RouterLink>
     </nav>
   </header>
 
