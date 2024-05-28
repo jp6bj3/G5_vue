@@ -37,7 +37,7 @@
     box-sizing: border-box;
 }
 
-@include createGrid(12);
+@include createGrid('');
 
 @media screen and (min-width:$sm) {
     @include createGrid('-sm');

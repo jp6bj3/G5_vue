@@ -1,0 +1,19 @@
+/* Error: Undefined operation "1/"-sm" * 100%".
+ *   ,
+ * 6 |             width: math.div($i, $size) * 100%;
+ *   |                    ^^^^^^^^^^^^^^^^^^^^^^^^^^
+ *   '
+ *   g5_vue\src\assets\sass\base\_grid.scss 6:20  createGrid()
+ *   g5_vue\src\assets\sass\base\_grid.scss 43:5  @import
+ *   g5_vue\src\assets\sass\style.scss 11:9       root stylesheet */
+
+body::before {
+  font-family: "Source Code Pro", "SF Mono", Monaco, Inconsolata, "Fira Mono",
+      "Droid Sans Mono", monospace, monospace;
+  white-space: pre;
+  display: block;
+  padding: 1em;
+  margin-bottom: 1em;
+  border-bottom: 2px solid black;
+  content: 'Error: Undefined operation "1/"-sm" * 100%".\a   \2577 \a 6 \2502              width: math.div($i, $size) * 100%;\d\a   \2502                     ^^^^^^^^^^^^^^^^^^^^^^^^^^\a   \2575 \a   g5_vue\\src\\assets\\sass\\base\\_grid.scss 6:20  createGrid()\a   g5_vue\\src\\assets\\sass\\base\\_grid.scss 43:5  @import\a   g5_vue\\src\\assets\\sass\\style.scss 11:9       root stylesheet';
+}
